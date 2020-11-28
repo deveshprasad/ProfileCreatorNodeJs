@@ -1,0 +1,28 @@
+<%- include("./partials/header.ejs") %> 
+<div class="ui main text container segment">
+    <div class="ui huge header">Add Your Profile Details :</div>
+    <form class="ui form" action="/profiles" method="post">
+        <div class="field">
+            <label for="">FULL NAME :</label>
+            <input type="text" name="profile[title]" id="" placeholder="FULL NAME ">
+        </div>
+        <div class="field">
+            <label for="">LOCATION :</label>
+            <input type="text" name="profile[location]" id="" placeholder="LOCATION COUNTRY ONLY ">
+        </div>
+        <div class="field">
+            <label for="">PROFILE IMAGE :</label>
+            <input type="text" name="profile[image]" id="" placeholder="ADD YOUR IMAGE LINK">
+        </div>
+        <div class="field">
+            <label for="">DESCRIPTION :</label>
+            <textarea  name="profile[body]" id="" placeholder="ADD YOUR PROFILE DESCRIPTION"></textarea>
+        </div>
+    <div class="field">
+        <input class="ui black big basic button" type="submit" value="Submit">
+    </div>
+    
+    
+</form>
+</div>
+<%- include("./partials/footer.ejs") %> 

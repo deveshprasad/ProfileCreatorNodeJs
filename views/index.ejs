@@ -1,0 +1,50 @@
+<%- include("./partials/header.ejs") %> 
+<div class="ui main text container">
+  <h2>
+    <form action="/profiles" method="GET">
+      <div class="">
+            <input type="text" name="search" placeholder="PROFILE SEARCH ..." class="" >
+            <input type="submit" value="Search" class="ui primary button">
+      </div>
+    </form>
+  </h2>
+
+<div class="ui huge header">Following Profiles have been Registered :</div>
+<div class="ui top attached segment">
+    <div class="ui divided items">
+      <div class="">
+        <% if(noMatch!==null){ %>
+          <h3><%= noMatch %> 
+          </h3> 
+        <% } %>  
+      </div>
+    <%profiles.forEach((profile)=>{%>
+      <div class="item">
+        <div class="immage">
+          <img src="<%=profile.image%>" alt="" srcset="">
+        </div>
+        <div class="content">
+          <a class="header" href="/profiles/<%=profile._id %>"><%=profile.title%></a>
+          <div class="method">
+
+            <span><p class="created">CREATED ON : <%=profile.created.toDateString()%></p></span>
+          </div>
+          <div class="method">
+
+            <span><p class="created">LOCATION : <%=profile.location%></p></span>
+          </div>
+          <div class="description">
+            <p><%-profile.body%>...</p>
+          </div>
+              <div class="extra">
+                <a class="ui floated basic black button" href="/profiles/<%=profile._id %>">Read More<i class="right chevron icon"></i></a>
+              </div>
+        </div>
+        </div>
+    <% }); %> 
+    
+  </div>
+</div>
+</div>
+
+<%- include("./partials/footer.ejs") %> 

@@ -1,0 +1,32 @@
+i .icon{
+    font-size: 2em;
+}
+.item{
+    font-size: 1.3rem;
+}
+.immage{
+    margin: 15px;
+}
+
+.container.main{
+    margin-top:7em;
+}
+body{
+    background-color: rgb(245, 242, 248);
+}
+.content{
+    text-align: left;
+}
+
+#delete{
+    display: inline;
+}
+footer{
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+.created{
+    color: rgb(51, 36, 36);
+    font-weight: 800;
+}
