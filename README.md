@@ -118,6 +118,6 @@ show collections
 ## Maintainer ✨
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/deveshprasad"><img src="https://avatars.githubusercontent.com/u/54665036?s=460&u=1bff30cf96a1502a7abd09755f179197007bc345&v=4" width="100px;" alt=""/><br /><sub><b>Devesh Prasad</b></sub></a><br /><a href="https://github.com/deveshprasad/ProfileCreatorNodejs/commits?author=deveshprasad" title="Code">💻</a><a href="https://github.com/deveshprasad/ProfileCreatorNodejs/commits?author=devesprasad" title="Documentation">📖</a> <a href="https://github.com/deveshprasad/ProfileCreatorNodejs/commits?author=deveshprasad" title="Maintenance">🚧</a></td>
+    <td align="center"><a href="https://github.com/deveshprasad"><img src="https://avatars.githubusercontent.com/u/63739986?s=460&u=7f3c89bd6859a6406a9890a4936910b710ee721e&v=4" width="100px;" alt=""/><br /><sub><b>Devesh Prasad</b></sub></a><br /><a href="https://github.com/deveshprasad/ProfileCreatorNodejs/commits?author=deveshprasad" title="Code">💻</a><a href="https://github.com/deveshprasad/ProfileCreatorNodejs/commits?author=devesprasad" title="Documentation">📖</a> <a href="https://github.com/deveshprasad/ProfileCreatorNodejs/commits?author=deveshprasad" title="Maintenance">🚧</a></td>
   </tr>
 </table>
