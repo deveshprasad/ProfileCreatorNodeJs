@@ -8,17 +8,6 @@ Website Link : https://serene-dawn-37640.herokuapp.com/profiles
 ![1](https://user-images.githubusercontent.com/63739986/111699267-e88fb400-885d-11eb-8f6a-9ec8e0b5f9d6.png)
 
 
-
-2)
-![2](https://user-images.githubusercontent.com/63739986/111699272-ea597780-885d-11eb-9ac2-058ede1587ea.png)
-
-
-
-3)
-![3](https://user-images.githubusercontent.com/63739986/111699275-ea597780-885d-11eb-87fd-71eb7de6ea26.png)
-
-
-
 <br><br>
 
 ## Tech Stack-
@@ -121,3 +110,15 @@ show collections
     <td align="center"><a href="https://github.com/deveshprasad"><img src="https://avatars.githubusercontent.com/u/63739986?s=460&u=7f3c89bd6859a6406a9890a4936910b710ee721e&v=4" width="100px;" alt=""/><br /><sub><b>Devesh Prasad</b></sub></a><br /><a href="https://github.com/deveshprasad/ProfileCreatorNodejs/commits?author=deveshprasad" title="Code">💻</a><a href="https://github.com/deveshprasad/ProfileCreatorNodejs/commits?author=devesprasad" title="Documentation">📖</a> <a href="https://github.com/deveshprasad/ProfileCreatorNodejs/commits?author=deveshprasad" title="Maintenance">🚧</a></td>
   </tr>
 </table>
+
+
+
+2)
+![2](https://user-images.githubusercontent.com/63739986/111699272-ea597780-885d-11eb-9ac2-058ede1587ea.png)
+
+
+
+3)
+![3](https://user-images.githubusercontent.com/63739986/111699275-ea597780-885d-11eb-87fd-71eb7de6ea26.png)
+
+
