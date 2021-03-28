@@ -8,7 +8,6 @@
       </div>
     </form>
   </h2>
-
 <div class="ui huge header">Following Profiles have been Registered :</div>
 <div class="ui top attached segment">
     <div class="ui divided items">
@@ -26,11 +25,9 @@
         <div class="content">
           <a class="header" href="/profiles/<%=profile._id %>"><%=profile.title%></a>
           <div class="method">
-
             <span><p class="created">CREATED ON : <%=profile.created.toDateString()%></p></span>
           </div>
           <div class="method">
-
             <span><p class="created">LOCATION : <%=profile.location%></p></span>
           </div>
           <div class="description">
@@ -42,9 +39,7 @@
         </div>
         </div>
     <% }); %> 
-    
   </div>
 </div>
 </div>
-
 <%- include("./partials/footer.ejs") %> 
