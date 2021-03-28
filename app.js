@@ -4,9 +4,7 @@ const ejs=require("ejs");
 const mongoose=require("mongoose");
 const methodOverride=require("method-override");
 const expressSanitizer=require("express-sanitizer")
-
 const app=express();
-
 
 mongoose.connect("mongodb+srv://username:password@cluster0.qjkr4.mongodb.net/newProfileDB",{useNewUrlParser:true,useUnifiedTopology:true,useFindAndModify:false});
 app.set("view engine","ejs");
@@ -23,14 +21,7 @@ const newprofileSchema=mongoose.Schema({
     created:{type:Date,default:Date.now}
 });
 const NewProfile=mongoose.model("NewProfile",newprofileSchema);
-// NewProfile.create({
-//     title:"Test profile",
-//     image:"hfhgfhgfgh" ,
-//     body:"hello profile "
-//  });
- 
-app.get("/",(req,res)=>{
-  
+app.get("/",(req,res)=>{  
   res.redirect("/profiles");
 });
 ////////////////////INDEX ROUTE
@@ -58,9 +49,7 @@ app.get("/profiles",(req,res)=>{
          res.render("index",{profiles:profiles,noMatch:noMatch});
       }
      });
- 
   }
-      
 });
 /////////////////NEW ROUTE
 app.get("/profiles/new",(req,res)=>{
@@ -79,9 +68,7 @@ res.redirect("/profiles");
 }
 });
 });
-
 app.get("/profiles/:id",(req,res)=>{
-  
 NewProfile.findById(req.params.id,(err,foundProfile)=>{
 if(err){
   console.log(err);
@@ -99,9 +86,7 @@ app.get("/profiles/:id/edit",(req,res)=>{
       res.render("edit",{profile:foundProfile});
   }
   });
-
 });
-
 /////////////////////UPDATE
 app.put("/profiles/:id",(req,res)=>{
   req.body.profile.body=req.sanitize(req.body.profile.body);
@@ -126,7 +111,6 @@ NewProfile.findByIdAndRemove(req.params.id,(err)=>{
 function escapeRegex(text) {
   return text.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, "\\$&");
 };
-
 app.listen(process.env.PORT || 3000,()=>{
 console.log("Server Started Succesfully");
 });
